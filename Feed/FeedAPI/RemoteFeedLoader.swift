@@ -24,5 +24,3 @@ public final class RemoteFeedLoader {
         client.get(from: url)
     }
 }
-
- 
