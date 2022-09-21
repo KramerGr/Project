@@ -90,7 +90,6 @@ class RemoteFeedLoaderTests: XCTestCase {
                 headerFields: nil
             )
             messages[index].completion(nil, response )
-             
         }
     }
 }
