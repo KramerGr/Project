@@ -83,7 +83,6 @@ class RemoteFeedLoaderTests: XCTestCase {
             messages[index].completion(.failure(error))
         }
         
-        
         func complete(withStatusCode code: Int, at index: Int = 0) {
             let response = HTTPURLResponse(
                 url: requestedURLs[index],
