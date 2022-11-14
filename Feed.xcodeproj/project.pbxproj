@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E669253A292201C40017B7FF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6692539292201C40017B7FF /* HTTPClient.swift */; };
 		E6FF5F9728BA076F00BF2A70 /* Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5F8E28BA076F00BF2A70 /* Feed.framework */; };
 		E6FF5FA728BA082300BF2A70 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF5FA628BA082300BF2A70 /* FeedItem.swift */; };
 		E6FF5FA928BA0B5800BF2A70 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF5FA828BA0B5800BF2A70 /* FeedLoader.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6692539292201C40017B7FF /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		E6FF5F8E28BA076F00BF2A70 /* Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FF5F9628BA076F00BF2A70 /* FeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FF5FA628BA082300BF2A70 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E6FF60EA28C8613E00BF2A70 /* RemoteFeedLoader.swift */,
+				E6692539292201C40017B7FF /* HTTPClient.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				E6FF5FA928BA0B5800BF2A70 /* FeedLoader.swift in Sources */,
 				E6FF60EB28C8613E00BF2A70 /* RemoteFeedLoader.swift in Sources */,
+				E669253A292201C40017B7FF /* HTTPClient.swift in Sources */,
 				E6FF5FA728BA082300BF2A70 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
