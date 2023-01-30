@@ -41,7 +41,10 @@ class URLSessionHTTPClientTest: XCTestCase {
         sut.get(from: url) { result in
             switch result {
             case let .failure(receivedError as NSError):
-                let receivedError = error
+                let receivedError = NSError(
+                    domain: receivedError.domain,
+                    code: receivedError.code
+                )
                 XCTAssertEqual(receivedError, error)
             
             default:
