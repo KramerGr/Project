@@ -23,8 +23,8 @@ class URLSessionHTTPClientTest: XCTestCase {
         URLProtocolStub.observeRequests { request in
             XCTAssertEqual(request.url, url)
             XCTAssertEqual(request.httpMethod, "GET")
-            exp.fulfill()
         }
+        exp.fulfill()
         
         makeSUT().get(from: url) { _ in }
         
